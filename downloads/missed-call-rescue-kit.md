@@ -1,0 +1,65 @@
+# Missed-Call Rescue Kit
+**AutoFlow Digital · $47 one-time**
+
+Stop losing jobs to voicemail. This kit is the playbook local HVAC/plumbing shops use to text missed calls back in under a minute — without hiring a VA.
+
+## What’s inside
+1. **Owner one-pager** — why missed calls kill revenue (print & tape to the van)
+2. **30-second SMS scripts** — first reply, bump, book confirm (copy/paste)
+3. **Phone tree checklist** — forward missed → text → calendar (any carrier)
+4. **Booking script** — what to say when they call back
+5. **Weekly scorecard** — track recovered jobs
+
+## Who it’s for
+Owner-operators and small shops (1–10 techs) in HVAC, plumbing, electrical, roofing.
+
+## Who it’s not for
+Agencies wanting white-label installs (that’s our full AutoFlow setup: $2,500 setup / $997 mo).
+
+---
+
+## 1) Owner one-pager
+Every missed call is a job walking to the next Google result. Goal: **text back in ≤60 seconds**, book same day when possible.
+
+Rule: *Whoever texts first usually wins the job.*
+
+## 2) SMS scripts (copy/paste)
+**First reply (missed call):**
+Hey {{name}} — sorry we missed you. This is {{shop}}. Need service today or schedule? Reply 1 for today / 2 for later and we’ll lock a time.
+
+**Soft bump (no reply, +2h):**
+Quick bump — still need help at the house? Reply YES and we’ll get you on the board.
+
+**Booked confirm:**
+You’re set {{day}} {{time}}. Tech: {{tech}}. Address we have: {{address}}. Reply STOP to cancel.
+
+## 3) Phone tree checklist
+- [ ] Business line rings phones that get answered 8a–6p
+- [ ] After 4 rings OR busy → forward to a number that can SMS (or AutoFlow)
+- [ ] Template loaded with shop name
+- [ ] Calendar link or “reply 1/2” path ready
+- [ ] Owner gets push/SMS when a lead replies
+
+## 4) Booking callback script (30 sec)
+“Hey, this is {{name}} with {{shop}} — saw you needed service. Are you dealing with no cool / no heat / a leak right now, or is it something we can schedule this week?”
+
+Then: diagnose → offer 2 time windows → confirm address → send confirm text.
+
+## 5) Weekly scorecard
+| Metric | Mon | Tue | Wed | Thu | Fri | Sat |
+| --- | --- | --- | --- | --- | --- | --- |
+| Missed calls | | | | | | |
+| Texts sent ≤60s | | | | | | |
+| Replies | | | | | | |
+| Jobs booked (from missed) | | | | | | |
+| Revenue booked | | | | | | |
+
+**How to use:** Fill this once a week. Track recovered jobs on the scorecard — compare week over week. No invented conversion targets; your numbers are the only ones that matter.
+
+---
+
+## Soft upgrade (optional)
+When texting by hand isn’t enough, AutoFlow Missed-Call install: **$2,500 setup / $997 mo**. Live walkthroughs 12 minutes, Tue/Thu.
+
+---
+© AutoFlow Digital — personal use for one shop. Not for resale.

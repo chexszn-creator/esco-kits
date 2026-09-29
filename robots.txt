@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you/
+Disallow: /downloads/
+
+Sitemap: https://OWNER.github.io/esco-kits/sitemap.xml

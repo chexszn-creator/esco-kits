@@ -3,4 +3,4 @@ Allow: /
 Disallow: /thank-you/
 Disallow: /downloads/
 
-Sitemap: https://OWNER.github.io/esco-kits/sitemap.xml
+Sitemap: https://chexszn-creator.github.io/esco-kits/sitemap.xml

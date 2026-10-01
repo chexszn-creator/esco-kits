@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>No-Show and Late Cancellation Cost Calculator (Free, for Service Businesses)</title>
+<meta name="description" content="Free no-show cost calculator: enter weekly appointments, no-show and late-cancel rate, average ticket and wasted trip cost to see what empty slots cost you per month and year.">
+<link rel="canonical" href="https://chexszn-creator.github.io/esco-kits/tools/no-show-cost-calculator/">
+<meta property="og:type" content="website"><meta property="og:title" content="No-Show and Late Cancellation Cost Calculator (Free, for Service Businesses)"><meta property="og:description" content="Free no-show cost calculator: enter weekly appointments, no-show and late-cancel rate, average ticket and wasted trip cost to see what empty slots cost you per month and year."><meta property="og:url" content="https://chexszn-creator.github.io/esco-kits/tools/no-show-cost-calculator/"><meta property="og:site_name" content="AutoFlow Digital">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../../assets/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "No-show and late-cancellation cost calculator", "url": "https://chexszn-creator.github.io/esco-kits/tools/no-show-cost-calculator/", "applicationCategory": "BusinessApplication", "operatingSystem": "Any", "description": "Free no-show cost calculator: enter weekly appointments, no-show and late-cancel rate, average ticket and wasted trip cost to see what empty slots cost you per month and year.", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is a normal no-show rate?", "acceptedAnswer": {"@type": "Answer", "text": "It varies by industry, booking lead time and whether you send reminders. Track your own: count booked appointments and no-shows for four weeks and divide."}}, {"@type": "Question", "name": "Do reminder texts reduce no-shows?", "acceptedAnswer": {"@type": "Answer", "text": "Reminders and easy rescheduling usually reduce no-shows, because many missed appointments happen simply because the customer forgot. Measure your own before and after."}}, {"@type": "Question", "name": "Should I charge a no-show fee?", "acceptedAnswer": {"@type": "Answer", "text": "Many salons and some service businesses do. If you do, state it clearly at booking and in the confirmation text, and use judgment for genuine emergencies."}}, {"@type": "Question", "name": "Is my data saved?", "acceptedAnswer": {"@type": "Answer", "text": "No. The calculator runs in your browser and nothing is sent anywhere."}}]}</script>
+<meta name="page-id" content="tools-no-show-cost-calculator"><meta name="page-type" content="tool">
+</head><body data-page="tools-no-show-cost-calculator" data-type="tool" data-kit="missed-call-rescue-kit">
+<header class="site"><div class="wrap"><a class="logo" href="../../">AutoFlow Digital</a>
+<nav><a href="../../#kits">Kits</a><a href="../../kits/all-4-kits-bundle/">Bundle $97</a><a href="../../tools/">Free tools</a><a href="../../guides/">Free guides</a><a href="../../done-for-you/">Done-for-you</a></nav></div></header>
+<main><div class="wrap">
+<p class="crumbs"><a href="../../">Home</a> › <a href="../">Free tools</a></p>
+<section class="hero"><h1>No-show and late-cancellation cost calculator</h1><p class="lede">For trades, salons, cleaners, auto shops and any business that runs on booked appointments. Enter your numbers to see what empty slots and wasted trips add up to. Nothing leaves your browser.</p></section>
+<form class="calc" id="calc" novalidate><label for="appts">Booked appointments per week<span class="hint">All jobs or visits on the schedule in a normal week.</span></label><input id="appts" name="appts" type="number" inputmode="decimal" min="0" step="1" value="40"><label for="rate">No-show + late-cancel rate (%)<span class="hint">Appointments that don&#x27;t happen with too little notice to refill.</span></label><input id="rate" name="rate" type="number" inputmode="decimal" min="0" step="0.1" value="8"><label for="value">Average appointment value ($)<span class="hint">Average ticket for a typical appointment.</span></label><input id="value" name="value" type="number" inputmode="decimal" min="0" step="1" value="180"><label for="refill">Share of those slots you manage to refill (%)<span class="hint">From a waitlist or same-day calls. Use 0 if you rarely refill them.</span></label><input id="refill" name="refill" type="number" inputmode="decimal" min="0" step="1" value="20"><label for="trip">Wasted cost per no-show ($)<span class="hint">Fuel, drive time or prepped materials (use 0 for in-shop businesses).</span></label><input id="trip" name="trip" type="number" inputmode="decimal" min="0" step="1" value="25"><div class="btns"><button class="btn" type="submit">Calculate</button></div></form>
+<div class="result" id="result" hidden aria-live="polite"><div id="result-body"></div>
+<p><strong>Fix it with the Missed-Call Rescue Kit ($47).</strong> Text every missed call back in under a minute, without hiring anyone.</p>
+<div class="btns"><a class="btn" href="https://buy.stripe.com/4gM6oGc9Zapu6Xi943bsc05?client_reference_id=tools-no-show-cost-calculator__tool-result&amp;utm_source=esco-kits&amp;utm_medium=tool-result&amp;utm_content=tools-no-show-cost-calculator">Get the Missed-Call Rescue Kit: $47</a><a class="btn ghost" href="https://buy.stripe.com/3cIfZgb5V1SYdlGgwvbsc0e?client_reference_id=tools-no-show-cost-calculator__tool-result-bundle&amp;utm_source=esco-kits&amp;utm_medium=tool-result-bundle&amp;utm_content=tools-no-show-cost-calculator">All 4 kits: $97 ($160 value)</a></div>
+<p class="note">One-time payment through Stripe, instant download. <a href="../../kits/missed-call-rescue-kit/">See what's inside</a>.</p></div>
+
+<h2>How the calculation works</h2>
+<p>Weekly loss = appointments × no-show rate × [(1 − refill rate) × average value + wasted cost]. Monthly = weekly × 52 ÷ 12. The wasted-cost field covers what a no-show costs even when you refill the slot, like a truck that drove across town or color mixed for a client who didn't show.</p>
+<h2>What reduces no-shows</h2>
+<ul>
+<li><strong>Booking confirmation text</strong> sent right away, with the day, time window and address.</li>
+<li><strong>Day-before reminder</strong> with "Reply C to confirm, R to reschedule". Rescheduling is better than a no-show.</li>
+<li><strong>On-my-way text</strong> for field visits, so the customer is home and the gate is open.</li>
+<li><strong>A clear, friendly cancellation policy</strong> stated in the confirmation, not first mentioned when you charge a fee.</li>
+<li><strong>A waitlist</strong> so late cancellations get refilled.</li>
+</ul>
+
+<h2>Frequently asked questions</h2><h3>What is a normal no-show rate?</h3><p>It varies by industry, booking lead time and whether you send reminders. Track your own: count booked appointments and no-shows for four weeks and divide.</p><h3>Do reminder texts reduce no-shows?</h3><p>Reminders and easy rescheduling usually reduce no-shows, because many missed appointments happen simply because the customer forgot. Measure your own before and after.</p><h3>Should I charge a no-show fee?</h3><p>Many salons and some service businesses do. If you do, state it clearly at booking and in the confirmation text, and use judgment for genuine emergencies.</p><h3>Is my data saved?</h3><p>No. The calculator runs in your browser and nothing is sent anywhere.</p>
+<h2>Related free guides</h2><ul class="guides"><li><a href="../../guides/appointment-confirmation-text-template-home-services/">Appointment confirmation text templates for home services</a></li><li><a href="../../guides/on-my-way-text-template-technician/">On my way text template for technicians</a></li><li><a href="../../guides/hair-salon-missed-call-text-back-script/">Hair salon missed-call text back script</a></li><li><a href="../../guides/house-cleaning-missed-call-text-back-script/">House cleaning missed-call text back script</a></li></ul>
+<h2>More free calculators</h2><ul><li><a href="../missed-call-revenue-calculator/">Missed Call Revenue Loss Calculator for Service Businesses (Free)</a></li><li><a href="../google-review-rating-calculator/">Google Review Rating Calculator: How Many 5-Star Reviews to Reach Your Target</a></li></ul>
+<script>
+(function(){
+const f=document.getElementById('calc'),o=document.getElementById('result'),ob=document.getElementById('result-body');
+const v=id=>{const x=parseFloat(document.getElementById(id).value);return isFinite(x)?Math.max(0,x):0};
+const money=n=>'$'+Math.round(n).toLocaleString('en-US');
+const out=h=>{ob.innerHTML=h;o.hidden=false};
+function run(){
+const a=v('appts'),r=v('rate')/100,val=v('value'),f=Math.min(100,Math.max(0,v('refill')))/100,tr=v('trip');
+const ns=a*r, lostWk=ns*(1-f)*val + ns*tr, mo=lostWk*52/12, yr=lostWk*52;
+const halve=yr/2;
+out(`<p class="big">${money(mo)} <span>per month</span></p><p class="big">${money(yr)} <span>per year</span></p>
+<p>About <strong>${(ns*52/12).toFixed(1)} missed appointments a month</strong>. Cutting no-shows in half with reminder and confirmation texts would be worth about <strong>${money(halve)}</strong> a year.</p>`);
+}
+f.addEventListener('input',run);f.addEventListener('submit',e=>{e.preventDefault();run();o.scrollIntoView({behavior:'smooth',block:'nearest'})});run();
+})();
+</script>
+</div></main>
+<footer class="site"><div class="wrap">
+<a href="../../">Home</a><a href="../../tools/">Free calculators</a><a href="../../guides/">Free guides</a><a href="../../done-for-you/">Done-for-you</a><a href="../../policies/">Privacy · Refunds · Contact</a>
+<p>© 2026 AutoFlow Digital. Digital templates for small local service businesses. Payments are processed securely by Stripe.</p>
+</div></footer>
+</body></html>

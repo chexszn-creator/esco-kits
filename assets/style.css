@@ -35,4 +35,7 @@ button.btn{font:inherit;font-weight:700;border:0;cursor:pointer}
 .calc label{display:block;font-weight:700;margin:12px 0 4px}.calc .hint{display:block;font-weight:400;font-size:14px;color:var(--muted)}
 .calc input{width:100%;max-width:260px;font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#fff}
 .result{margin:18px 0;padding:20px;border-radius:14px;border:2px solid var(--brand);background:#fff}.result .big{font-size:1.8rem;font-weight:800;margin:0 0 6px}.result .big span{font-size:1rem;font-weight:600;color:var(--muted)}
+.freebox{margin:22px 0;padding:18px 20px;border-radius:14px;border:2px solid var(--ok);background:#f2fbf6}.freebox h2,.freebox h3{margin:0 0 6px}.freebox p{margin:0 0 10px}
+.btn.free{background:var(--ok)}.btn.free:hover{background:#0b7d45}
+#dl-done{display:none;margin:14px 0;padding:12px 16px;border-radius:10px;background:#eef9f1;border:1px solid #bfe5cc;font-weight:700}
 @media(max-width:560px){nav a{margin-left:10px;font-size:14px}body{font-size:16px}}
